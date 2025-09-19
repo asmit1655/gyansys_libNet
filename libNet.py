@@ -186,3 +186,6 @@ if __name__ == "__main__":
     print("\n--- Simulating a Return ---")
     libra_net.return_item(105) # Return "Death Note Vol.1"
     print("-" * 30)
+    
+    #8. List all items again to see the final status.
+    libra_net.list_all_items()
